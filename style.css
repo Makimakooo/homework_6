@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(200, 236, 117);
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border: 2px solid rgb(0, 0, 0);
+    width: 33%;
+    height: 33%;
+}
+
+.red {
+    background-color: rgb(233, 17, 17);
+}
+
+.blue {
+    background-color: rgb(54, 35, 233);
+}
+
+.yellow {
+    background-color: rgb(251, 251, 10);
+}
+
+.empty {
+    background-color: rgb(252, 242, 242);
+}
